@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+/*Making tbe header black and text content white */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;  /* Use flexbox make a inline navigation bar */
+  gap: 1rem;  /* Adjust gap between links as needed */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+/*Adding style on hover to make it red*/
+.nav-links a:hover {
+  text-decoration: unset;
+  color: red;
+}
+
+.image{
+  display: block;
+  align-items: center;
+  width:100%;
+  height: auto;
+}
+.container{
+  position: relative;
+}
+/*Making the postion of text box absolute while position of image relative to display text on the image*/
+.go {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 5px;
+      text-align: center;
+      font-size: 24px;
+    }
+/*Normal css for text and image */
+.kh{
+  text-align: center;
+}
+.hh{
+  text-align: center;
+  font-family: fantasy;
+}
+#ag{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  display: block;
+}
+/*style for download link to make it red on hover*/
+#down{
+  color: black;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+}
+#down:hover{
+  color: red;
+  display: inline-flex;
+}
+#ol{
+  text-align:center;
+}
+#pp{
+  text-align: center;
+}
+/*Styles for the quiz section to make the background black and other related stlyes*/
+#quiz-section {
+  padding: 2em;
+  text-align: center;
+  background-color: black;
+}
+#quiz-container {
+  margin: 0 auto;
+  width: 300px;
+  background-color: black;
+}
+
+#answers button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 100%;
+}
+
+#next-button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+}
+#qu{
+  color: red;
+}
+#quizSec{
+  text-decoration-color: red;
+}
+#question{
+  color: red;
+}
+#result{
+  color: red;
+}
+#off{
+  text-align: center;
+  color: white;
+}
+#off:hover{
+  color: red;
+}
+#copy{
+  text-align: center;
+  color:white;
+}
+#foot{
+  background-color: black;
+}
+#of{
+  text-align: center;
+}

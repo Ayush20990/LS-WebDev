@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Valorant</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Creating a navigation bar with reference to different parts of the page -->
+  <header class="header"><h1>Valorant</h1>
+    <nav id='home'>
+      <ul class="nav-links">
+        <li><a href='#home'>Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#information">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- adding a image with text on it -->
+  <div class='container'>
+    <img src="vv.jpg" class='image'>
+    <div class="go">
+      <p id='about'>About</p>
+      <p id='gg'>Valorant is an online multiplayer computer game, produced by Riot Games. It is a first-person shooter game, consisting of two teams of five, where one team attacks and the other defends. Players control characters known as ‘agents’, who all have different abilities to use during gameplay. The game’s matchmaking system automatically groups players of similar skill together.</p>
+    </div>
+  </div>
+  <div class="kh">
+    <h2 id='information'>Information</h2>
+    <ul id='info'>
+      <li>Tactical Gameplay: Valorant emphasizes strategic gameplay where teamwork, communication, and planning are crucial. Each player selects a unique "agent" with distinct abilities that can be used strategically during matches.</li>
+      <li>Unique Agents: The game features a roster of agents, each with their own set of abilities categorized into unique roles like Duelists, Initiators, Controllers, and Sentinels. These abilities can range from offensive attacks to defensive utilities and support capabilities.</li>
+      <li>Objective-based Gameplay: Matches in Valorant typically involve one team attacking and the other defending a series of bomb sites. The attacking team must plant a bomb (Spike) while the defending team tries to stop them or defuse the planted Spike.</li>
+      <li>Precision Shooting Mechanics: Valorant places a strong emphasis on precise aiming and shooting mechanics. Players need to master skills such as recoil control, accurate shooting, and effective use of weapons.</li>
+      <li>Agent Abilities: Each agent has a unique ultimate ability that charges over time or through actions in the game. Ultimate abilities are powerful and can potentially turn the tide of a round when used strategically.</li>
+      <li>Economy System: Similar to other tactical shooters, Valorant includes an economy system where players earn money for kills, planting or defusing the Spike, and winning rounds. This money is used to purchase weapons, shields, and abilities for subsequent rounds.</li>
+      <li>Ranked Mode: Valorant offers a competitive ranked mode where players can test their skills and climb through different ranks, from Iron to Radiant, based on their performance in matches.</li>
+    </ul>
+  </div>
+  <h2 class='hh'>Choose your agent</h2>
+  <img src="agents.jpg" id='ag'>
+  <h2 class='hh'> Get Started</h2>
+  <p id='pp'>Download and Play for free. <a id='down' href="https://playvalorant.com/en-us/download/">Click here</a> to directly go to the download page</p>
+  <h3 class='hh'>Basic Gameplay Mechanics</h3>
+  <ol id='ol'> 
+    <li>Agents: Valorant features various agents, each with unique abilities. You start with a few agents and can unlock more as you play.</li>
+    <li>Game Modes: Start with the tutorial to learn the basics. The primary game mode involves planting or defusing a bomb, similar to other tactical shooters.</li>
+    <li>Maps: Familiarize yourself with the maps to understand common routes, bomb sites, and strategic points.</li>
+    <li>Economy: Manage your in-game economy by earning and spending currency (credits) wisely. This involves buying weapons, shields, and abilities each round.</li>
+  </ol>
+  <main id="quizSec">
+    <section id="quiz-section">
+      <h2 id="qu">Valorant Quiz</h2>
+      <div id="quiz-container">
+        <p id="question"></p>
+        <div id="answers">
+        </div>
+        <button id="next-button" onclick="nextQuestion()" style="display:none;">Next</button>
+      </div>
+      <p id="result"></p>
+    </section>
+  </main>
+  <footer id="contact">
+    <div id="foot">
+    <h5 id="of"><a id="off" href="https://playvalorant.com/en-gb/">Official Website</a></h5>
+    <p id="copy">2020-2024 Riot Games, Inc. RIOT GAMES, VALORANT and any associated logos are trademarks, service marks, and/or registered trademarks of Riot Games, Inc.</p>
+  </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
